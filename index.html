@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnavi Deshmukh - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #a07145;
+            color: #3e2723;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .section {
+            width: 85%;
+            background: #fff;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Square Photo */
+        .profile-pic, .extra-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 0;
+            object-fit: cover;
+            border: 4px solid #a07145;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2, h3 {
+            color: #3e2723;
+            text-align: center;
+        }
+
+        h3 {
+            border-bottom: 2px solid #a07145;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p, ul {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .linkedin-btn {
+            background: #0A66C2;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .linkedin-btn:hover {
+            background: #084a92;
+        }
+
+        /* ⭐ Make ONLY the last 4 images bigger without cropping */
+        .extra-pic {
+            width: 300px !important;
+            height: auto !important; /* keeps aspect ratio, no cropping */
+            margin: 20px auto !important;
+            object-fit: unset !important; /* disables cropping */
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    VAISHNAVI DESHMUKH - PORTFOLIO
+</header>
+
+<!-- PROFILE -->
+<div class="section">
+    <img src="vaishnavi.jpg" alt="Vaishnavi Photo" class="profile-pic">
+    <h2>Vaishnavi Deshmukh</h2>
+    <p style="text-align:center;">Electronics & Telecommunication Student<br>
+    MIT Academy of Engineering</p>
+</div>
+
+<!-- INTRO -->
+<div class="section">
+    <h3>Introduction</h3>
+    <p>
+        My name is Vaishnavi Deshmukh, and I am currently a third-year Electronics and 
+        Telecommunication (E&TC) student at MIT Academy of Engineering, Alandi.
+    </p>
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+    <h3>Education</h3>
+    <ul>
+        <li><b>B.Tech. (E&TC)</b> – MIT Academy of Engineering (3rd Year)</li>
+        <li><b>Diploma in E&TC:</b> 87.24%</li>
+        <li><b>SSC (10th):</b> 95.60%</li>
+    </ul>
+</div>
+
+<!-- SKILLS -->
+<div class="section">
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>Digital & Analog Electronics</li>
+        <li>Microcontrollers (8051, Arduino)</li>
+        <li>Embedded Systems Basics</li>
+        <li>PCB Design (Proteus, Multisim)</li>
+    </ul>
+</div>
+
+<!-- ⭐ NEW IMAGE ADDED HERE -->
+<div class="section">
+    <h3>My Project Image</h3>
+    <img src="image1.png" alt="Extra Project Image" class="extra-pic">
+</div>
+
+<img src="image2.png" alt="Extra Project Image" class="extra-pic">
+<img src="image3.png" alt="Extra Project Image" class="extra-pic">
+<img src="image4.png" alt="Extra Project Image" class="extra-pic">
+
+<!-- BUTTON -->
+<div class="section">
+    <div class="button-container">
+        <a href="https://www.linkedin.com/in/vaishnavi-deshmukh-99088933a" target="_blank" class="linkedin-btn">
+            Say Hello
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
+
